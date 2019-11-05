@@ -12,4 +12,8 @@ defmodule PoloniexApi.Http do
     |> Poison.decode!
     |> Enum.map(fn({k, v}) -> {String.to_atom(k), v} end)
   end
+
+  def process_request_headers(header) do
+    [{"Content-Type", "application/x-www-form-urlencoded"}] ++ header
+  end
 end
