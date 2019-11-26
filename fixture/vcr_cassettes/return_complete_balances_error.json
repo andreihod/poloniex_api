@@ -1,0 +1,34 @@
+[
+  {
+    "request": {
+      "body": "command=returnCompleteBalances&nonce=1574619278046",
+      "headers": {
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Key": "***",
+        "Sign": "***"
+      },
+      "method": "post",
+      "options": [],
+      "request_body": "",
+      "url": "https://poloniex.com/tradingApi"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"error\":\"Invalid API key\\/secret pair.\"}",
+      "headers": {
+        "Date": "Sun, 24 Nov 2019 18:14:54 GMT",
+        "Content-Type": "application/json",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive",
+        "Set-Cookie": "__cfduid=ddb5895cb39dbe01f36f88bd7c55b8ea21574619294; expires=Tue, 24-Dec-19 18:14:54 GMT; path=/; domain=.poloniex.com; HttpOnly; Secure",
+        "Cache-Control": "private",
+        "CF-Cache-Status": "DYNAMIC",
+        "Expect-CT": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+        "Server": "cloudflare",
+        "CF-RAY": "53ad5d7dbd6bd829-EZE"
+      },
+      "status_code": 403,
+      "type": "ok"
+    }
+  }
+]
